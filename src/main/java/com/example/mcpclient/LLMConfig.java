@@ -64,7 +64,7 @@ public class LLMConfig {
                                 "java",
                                 "-Dspring.ai.mcp.server.stdio=true",
                                 "-jar",
-                                "/Users/lee/IdeaProjects/mcp-server-weather/target/mcp-server-weather-0.0.1-SNAPSHOT.jar",
+                                "your-jar-path",
                                 "--weather.api.api-key=%s".formatted(weatherApikey),
                                 "--serper.api-key=%s".formatted(serperApikey)))
                         .logEvents(true) // only if you want to see the traffic in the log
